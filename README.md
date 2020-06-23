@@ -18,13 +18,13 @@ Para acceder a sus recursos en Skytap primero ingrese a su cuenta de [IBM cloud]
 Luego de esto ingrese en **Servicios** y luego en Skytap On IBM Cloud.
 
 <p align="center">
-<img width="956" alt="Skytapx" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen1.png">
+<img width="956" alt="Skytapx" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen.png">
 </p>
 
 Finalmente presione el botón Launch Skytap On IBM Cloud que lo redirigirá a la interfaz de Skytap para las configuraciones siguientes.
 
 <p align="center">
-<img width="956" alt="Skytapy" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen.png">
+<img width="956" alt="Skytapy" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen1.png">
 </p>
 
 ## 2. Preparación de máquinas virtuales para importar
@@ -79,7 +79,7 @@ Para importar archivo .OVA y .OVF que no sean de VMware a Skytap, debemos conver
   
   
  <p align="center">
-<img width="956" alt="Skytap2" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen2.png">
+<img width="956" alt="Skytap2" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen2.png">
 </p>
  
 
@@ -88,7 +88,7 @@ Para importar archivo .OVA y .OVF que no sean de VMware a Skytap, debemos conver
 
  
  <p align="center">
-<img width="929" alt="Skytap5" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen3.png">
+<img width="929" alt="Skytap5" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen3.png">
 </p>
 
  
@@ -100,14 +100,14 @@ Para importar archivo .OVA y .OVF que no sean de VMware a Skytap, debemos conver
 
 
 <p align="center">
-<img width="929" alt="skytap1" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen4.png">
+<img width="929" alt="skytap1" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen4.png">
 </p>
  
  
  * Ingrese en su cliente FTP con las credenciales proporcionadas por Skytap, ingrese en la carpeta **UPLOAD** y arrastre el archivo.
 
  <p align="center">
-<img width="805" alt="skytap3" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen5.png">
+<img width="805" alt="skytap3" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen5.png">
 </p>
  
 
@@ -117,7 +117,7 @@ Para importar archivo .OVA y .OVF que no sean de VMware a Skytap, debemos conver
 Una vez el proceso de carga del archivo en WinSCP termine haga clic en el botón **Create environment**, Skytap iniciará un proceso de análisis de la carpeta **UPLOAD** para luego importar las máquinas virtuales y crear un entorno virtual con su configuración de red.
 
 <p align="center">
-<img width="932" alt="Skytap6" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen6.png">
+<img width="932" alt="Skytap6" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen6.png">
 </p>
 
 Podrá encontrar su máquina en el panel principal.
