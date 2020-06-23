@@ -14,17 +14,17 @@ En esta guía encontrará el paso a paso detallado para la importación de sus m
 7. [Referencias](#Referencias-)
 
 ## 1. Acceso a Skytap On IBM Cloud
-Para acceder a sus recursos en Skytap primero ingrese a su cuenta de [IBM cloud](https://cloud.ibm.com/login), en caso de no tener una cuenta [cree una de forma gratuita](https://cloud.ibm.com/registration) y proporcione a IBM el correo de su cuenta para que le conceda acceso a su servicio de Skytap.
-Luego de esto ingrese en **Servicios** y luego en Skytap On IBM Cloud.
+Para acceder a sus recursos en Skytap, primero ingrese a su cuenta de [IBM cloud](https://cloud.ibm.com/login), en caso de no tener una cuenta [cree una de forma gratuita](https://cloud.ibm.com/registration) y proporcione a IBM el correo de su cuenta para que le conceda acceso a su servicio de Skytap.
+Luego de esto ingrese en **Servicios** y en **Skytap On IBM Cloud**.
 
 <p align="center">
-<img width="956" alt="Skytapx" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen.png">
+<img width="956" alt="Skytapx" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen1.png">
 </p>
 
-Finalmente presione el botón Launch Skytap On IBM Cloud que lo redirigirá a la interfaz de Skytap para las configuraciones siguientes.
+Finalmente presione el botón **Launch Skytap On IBM Cloud** que lo redirigirá a la interfaz de Skytap, donde se harán las configuraciones de los pasos siguientes.
 
 <p align="center">
-<img width="956" alt="Skytapy" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen1.png">
+<img width="956" alt="Skytapy" src="https://github.com/emeloibmco/Skytap-Importar-una-imagen/blob/master/Imagen.png">
 </p>
 
 ## 2. Preparación de máquinas virtuales para importar
