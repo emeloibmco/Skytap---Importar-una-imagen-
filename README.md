@@ -3,7 +3,7 @@
 En esta guía encontrará el paso a paso detallado para la importación de sus máquinas a Skytap usando FTP.
 
 ### Indice:
-1. [Acceso a Skytap On IBM Cloud](#1-acceso-a-skytap.on-ibm-cloud)
+1. [Acceso a Skytap On IBM Cloud](#1-acceso-a-skytap-on-ibm-cloud)
 2. [Preparación de máquinas virtuales para importar](#2-preparación-de-máquinas-virtuales-para-importar)
 - [Máquinas virtuales basadas en VMware](#a-máquinas-virtuales-basadas-en-VMware)
 - [Máquinas virtuales no basadas en VMware](#b-máquinas-virtuales-no-basadas-en-VMware)
