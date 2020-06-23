@@ -3,16 +3,31 @@
 En esta guía encontrará el paso a paso detallado para la importación de sus máquinas a Skytap usando FTP.
 
 ### Indice:
-1. [Preparación de máquinas virtuales para importar](#1-preparación-de-máquinas-virtuales-para-importar)
+1. [Acceso a Skytap On IBM Cloud](#1-acceso-a-skytap.on-ibm-cloud)
+2. [Preparación de máquinas virtuales para importar](#2-preparación-de-máquinas-virtuales-para-importar)
 - [Máquinas virtuales basadas en VMware](#a-máquinas-virtuales-basadas-en-VMware)
 - [Máquinas virtuales no basadas en VMware](#b-máquinas-virtuales-no-basadas-en-VMware)
-2. [Crear un trabajo de importación en Skytap](#2-crear-un-trabajo-de-importación-en-Skytap)
-3. [Cargar los archivos vía FTP](#3-cargar-los-archivos-vía-FTP)
-4. [Inicio del proceso de análisis e importación](#4-inicio-del-proceso-de-análisis-e-importación)
-5. [Notas](#Notas-)
-6. [Referencias](#Referencias-)
+3. [Crear un trabajo de importación en Skytap](#3-crear-un-trabajo-de-importación-en-Skytap)
+4. [Cargar los archivos vía FTP](#4-cargar-los-archivos-vía-FTP)
+5. [Inicio del proceso de análisis e importación](#5-inicio-del-proceso-de-análisis-e-importación)
+6. [Notas](#Notas-)
+7. [Referencias](#Referencias-)
 
-## 1. Preparación de máquinas virtuales para importar
+## 1. Acceso a Skytap On IBM Cloud
+Para acceder a sus recursos en Skytap primero ingrese a su cuenta de [IBM cloud](https://cloud.ibm.com/login), en caso de no tener una cuenta [cree una de forma gratuita](https://cloud.ibm.com/registration) y proporcione a IBM el correo de su cuenta para que le conceda acceso a su servicio de Skytap.
+Luego de esto ingrese en **Servicios** y luego en Skytap On IBM Cloud.
+
+<p align="center">
+<img width="956" alt="Skytapx" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen1.png">
+</p>
+
+Finalmente presione el botón Launch Skytap On IBM Cloud que lo redirigirá a la interfaz de Skytap para las configuraciones siguientes.
+
+<p align="center">
+<img width="956" alt="Skytapy" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen.png">
+</p>
+
+## 2. Preparación de máquinas virtuales para importar
 ¿Sus máquinas virtuales estan basadas en VMware? Si la respuesta es si, siga las instrucciones del numeral A, de lo contrario siga las instrucciones del numeral B.
 
 ### A. Máquinas virtuales basadas en VMware
@@ -56,7 +71,7 @@ Para importar archivo .OVA y .OVF que no sean de VMware a Skytap, debemos conver
 * **Importe la máquina virtual** convertida en Skytap, Este proceso lo puede realizar siguiendo esta guia siguiendola como si la imagen ya fuera VMware, o si desea información adicionar la puede consultar [aqui](https://help.skytap.com/importing-vms-overview.html).
 
  
- ## 2. Crear un trabajo de importación en Skytap
+ ## 3. Crear un trabajo de importación en Skytap
  
  Para cada archivo cree un **trabajo de importación** dentro de Skytap mediante los siguientes pasos:
  
@@ -77,7 +92,7 @@ Para importar archivo .OVA y .OVF que no sean de VMware a Skytap, debemos conver
 </p>
 
  
- ## 3. Cargar los archivos vía FTP
+ ## 4. Cargar los archivos vía FTP
  
  Para este paso necesitará un cliente FTP, le recomendamos el uso de [WinSCP](https://winscp.net/eng/index.php) para Microsoft.
  * En la interfaz de Skytap encontrará las credenciales para la conexión FTP.
@@ -97,7 +112,7 @@ Para importar archivo .OVA y .OVF que no sean de VMware a Skytap, debemos conver
  
 
  
-  ## 4. Inicio del proceso de análisis e importación
+  ## 5. Inicio del proceso de análisis e importación
   
 Una vez el proceso de carga del archivo en WinSCP termine haga clic en el botón **Create environment**, Skytap iniciará un proceso de análisis de la carpeta **UPLOAD** para luego importar las máquinas virtuales y crear un entorno virtual con su configuración de red.
 
