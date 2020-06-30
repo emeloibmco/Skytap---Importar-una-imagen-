@@ -1,4 +1,4 @@
-# ☁️ Skytap: Importación de máquinas virtuales ☁️
+# ☁️ Skytap: Importación de máquinas virtuales Intel☁️
 
 En esta guía encontrará el paso a paso detallado para la importación de sus máquinas a Skytap usando FTP.
 
